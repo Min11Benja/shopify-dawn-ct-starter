@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "run-p -sr shopify:dev watch",
+    "dev": "shopify theme dev -s min11benja-dawn-theme.myshopify.com",
     "shopify:dev": "shopify theme dev",
     "build": "vite build --minify",
     "watch": "vite build --watch"
